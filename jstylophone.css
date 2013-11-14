@@ -1,0 +1,91 @@
+div#jstylophone-container {
+    width:500px;
+    height:300px;
+    margin:20px auto;
+    padding:10px 20px;
+    border:1px solid black;
+    background-color:black;
+
+}
+
+div#title {
+    width:100%;
+    height:150px;
+    font-family:'Sonsie One', cursive;
+    text-align:end;
+    color:white;
+}
+
+div#controls {
+    clear:right;
+    background:white;
+    color:black;
+    height:140px;
+}
+
+div#controls button{
+    float:left;
+    background:white;
+    color:black;
+    height:140px;
+}
+
+div#player-surface {
+    float:right;
+    background:white;
+    color:black;
+    height:140px;
+    width:384px;
+    position: relative;
+}
+
+div#player-surface ul.notes {
+    display:inline-block;
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+div#player-surface ul#top-row {
+    float:left;
+    padding-left:16px;
+    position: absolute;
+    z-index:1;
+    height:1px;
+
+}
+
+div#player-surface ul#bottom-row {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+div#player-surface ul.notes li {
+    border:1px solid black;
+    width:30px;
+    float:left
+
+}
+
+
+
+div#player-surface ul#top-row li {
+    height:1px;
+    width:32px;
+    border:none
+}
+
+div#player-surface ul#top-row li.display {
+    background-color:black;
+    color:white;
+    height:80px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    width:26px;
+    margin:0px 3px;
+}
+
+div#player-surface ul#bottom-row li {
+    height:150px;
+}
